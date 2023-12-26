@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expreso Morabito</title>
+    <link rel="icon" type="image/jpg" href="../img/inoco.png" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><a href="../index.html"> <img src="../img/logo.png" alt="logo"></a></h1>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                  <a class="nav-link" href="../pages/particulares.html">PARTICULARES</a>
+                  <a class="nav-link" href="../pages/empresas.html">EMPRESAS</a>
+                  <a class="nav-link" href="../pages/quienes_somos.html">QUIENES SOMOS</a>
+                  <a class="nav-link" href="../pages/sucursales.html">SUCURSALES</a>
+                  <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <h2>ENVIOS EXCLUSIVOS PARA EMPRESAS</h2>
+        <div class="empresas">
+            <div class="remitenteemp">
+                <form id="remitente">
+                    <h3>DATOS DEL REMITENTE</h3>
+                    <div class="formulario">
+                        <p class="pformulario">Tipo de envío</p>
+                        <select name="envios" id="tipoenvio">
+                            <option value="mudanza">MUDANZA</option>
+                            <option value="encomienda">ENCOMIENDA</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input type="text" id="nombre" placeholder="NOMBRE DE CONTACTO">
+                    </div>
+
+                    <div>
+                        <input type="text" id="telefono" placeholder="TELEFONO">
+                    </div>
+
+                    <div>
+                        <input type="text" id="email" placeholder="EMAIL">
+                    </div>
+
+                    <div>
+                        <input type="text" id="direccion" placeholder="DIRECCIÓN">
+                    </div>
+
+                    <div>
+                        <input type="text" id="localidad" placeholder="LOCALIDAD">
+                    </div>
+
+                    <div>
+                        <input type="text" id="bultos" placeholder="CANTIDAD DE BULTOS">
+                    </div>
+
+                    <div>
+                        <input type="text" id="valor" placeholder="VALOR DECLARADO">
+                    </div>
+
+
+
+                    <div class="formulario">
+                        <p class="pformulario">Flete a cargo de</p>
+                        <select name="flete" id="fletes">
+                            <option value="mudanza">REMITENTE</option>
+                            <option value="encomienda">DESTINATARIO</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario">
+                        <p class="pformulario">Entrega</p>
+                        <select name="entrega" id="tipoentrega">
+                            <option value="domocilio">ENVIO A DOMICILIO</option>
+                            <option value="sucursal">RETIRO EN SUCURSAL</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario">
+                        <p class="pformulario">Seguro Propio</p>
+                        <select name="seguro" id="tipodeseguro">
+                            <option value="si">SI</option>
+                            <option value="no">NO</option>
+                        </select>
+                    </div>
+            </div>
+
+
+
+
+            <div class="destinatarioemp">
+                <h3>DATOS DEL DESTINATARIO</h3>
+
+                <div>
+                    <input type="text" id="nombre" placeholder="NOMBRE DE CONTACTO">
+                </div>
+
+                <div>
+                    <input type="text" id="telefono" placeholder="TELEFONO">
+                </div>
+
+                <div>
+                    <input type="text" id="direccion" placeholder="DIRECCIÓN">
+                </div>
+
+                <div>
+                    <input type="text" id="localidad" placeholder="LOCALIDAD">
+                </div>
+
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Observaciones"></textarea>
+                </div>
+                <div>
+                    <p class="pformulario">Seleccione una sucursal</p>
+                    <select name="sucursal" id="sucursal">
+                        <option value="laplata">La Plata</option>
+                        <option value="caba">CABA</option>
+                        <option value="lacosta">Mar de Ajó</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <input class="botonformulario" type="submit">
+        <input class="botonformulario" type="reset">
+        </form>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div><p>Expreso Morabito - Todos los derechos reservados 2023</p></div>
+        <div><a class="logofacebook" href="https://www.facebook.com/transportemorabito/" target="_blank"> <img src="../img/logo facebook.png"
+                    alt="Logo facebook" class="logorrss"></a></div>
+    </footer>
+</body>
+
+</html>

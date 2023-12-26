@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, #ffffff 0%, #0000ff 100%);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+/* body */
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff 0%, #0000ff 100%);
+}
+
+main {
+    padding: 30px;
+    margin: 20px;
+}
+
+.sucursales {display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);}
+
+.textocovid {
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem
+}
+
+.textoempresa {
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem
+}
+
+.textoretiro {
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem
+}
+
+.fotoscamiones {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.titulares {
+    margin: 20px;
+}
+
+/* footer */
+.footer {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logorrss {
+    width: 20px;
+    height: 20px
+}
+
+/*formulario contacto*/
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px color black;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pformulario {
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.botonformulario {
+    background-color: gray;
+    color: azure;
+    border-color: black;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*tipografría*/
+
+h3{padding: 1rem;}
+
+h2 {
+    font-family: 'Rubik Mono One', monospace;
+}
+
+@font-face {
+    font-family: "parrafo";
+    src: url(../fonts/Nunito/static/Nunito-Medium.ttf)
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: "parrafo";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*EMPRESAS*/
+.empresas {display: flex;
+align-items: center;
+justify-content: space-around;}
+
+/*PARTICULARES*/
+
+.particulares {display: flex; align-items: center; justify-content: space-around;}
+
+/*CONTACTO*/
+
+.contactform {display:flex;align-items: center;;justify-content: center;}
